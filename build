@@ -1,5 +1,8 @@
 #!/bin/bash
 echo "Lets start!"
-echo "Building..."
-echo "Linking..."
+cd src
+echo "Building and linking..."
+gcc -lstdc++ bootstrap.cpp backend.cpp -o ../trappedknight
+cd ..
 echo "Executing..."
+./trappedknight
