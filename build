@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "Lets start!"
+echo "Building..."
+echo "Linking..."
+echo "Executing..."
