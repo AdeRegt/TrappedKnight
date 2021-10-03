@@ -19,6 +19,13 @@ int calculate_x_y_to_cell_location(int x,int y);
  **/
 void dump_board();
 
+/**
+ * Get cell to jump to
+ * @param startingcell The cell the horse is on now 
+ * @returns -1 when not found, cell possition otherwise
+ **/
+int get_possible_cell_to_jump(int startingcell);
+
 /** 
  * The cell object
  **/
